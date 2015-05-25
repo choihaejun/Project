@@ -10,7 +10,7 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/Common/Style/style.css" rel="stylesheet" />
   <script>
-    //로그인테스트
+    //로그인
     function Login() {
       $('body').fadeOut(1000, function () {
         window.location.href = "/Memo/MemoList.aspx";
