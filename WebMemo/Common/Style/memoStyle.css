@@ -1,0 +1,21 @@
+﻿body {
+  background-image: linear-gradient(90deg, transparent 79px, rgb(171, 206, 212) 79px, rgb(171, 206, 212) 81px, transparent 81px), linear-gradient(rgb(238, 238, 238) 0.1em, transparent 0.1em); 
+  background-size: 100% 1.2em; 
+  background-color: rgb(255, 255, 255);
+}
+
+.modal-body
+{
+    min-height:500px;
+    max-height:700px;
+    overflow-y:scroll;
+}
+.navbar
+{
+    text-align:center;
+    padding-top:10px;
+}
+#imgFileUpload
+{
+    display:none;
+}

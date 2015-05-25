@@ -1,0 +1,47 @@
+.content 
+{
+  width: 980px;
+  margin: 80px auto; 
+}
+
+.example 
+{
+	position: relative; 
+}
+
+.example .brick 
+{
+  opacity: 1;
+  cursor: pointer;
+  position: relative; 
+  width: 200px;
+  height: 300px;
+  background-color: #f8f8f8;
+  color: black;
+  border-radius: 5px;
+}
+
+.example .click 
+{
+	width: 200px;
+  height: 300px; 
+	word-wrap:break-word;
+	font:white
+}
+
+.example .brick.dragging 
+{
+    opacity: 0.8; 
+}
+
+.gridly, .gridly > :not(.dragging) 
+{
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; 
+}
+
+.gridly .dragging 
+{
+  z-index: 800; 
+}
